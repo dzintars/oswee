@@ -1,0 +1,7 @@
+{
+  "name": "@oswee/front",
+  "description": "User facing web application",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "private": true
+}

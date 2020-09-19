@@ -1,22 +1,11 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "dist",
-    "target": "es6",
-    "module": "esNext",
-    "moduleResolution": "node",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "sourceMap": true,
+    "outDir": "../../dist/out-tsc",
     "types": []
   },
   "files": [
-    "src/index.ts"
-  ],
-  "include": [
-    "src"
+    "src/main.ts",
+    "src/polyfills.ts"
   ]
 }
